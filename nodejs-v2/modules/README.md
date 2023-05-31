@@ -20,7 +20,7 @@ node app.mjs
 - `exports`
 - `require`
 
-see more glabal [here](https://nodejs.org/api/globals.html)
+see more globals [here](https://nodejs.org/api/globals.html)
 
 # Modules
 

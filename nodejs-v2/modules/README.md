@@ -1,9 +1,13 @@
-# nodejs v2
+# modules
 
-Create a `index.js` and run it with node REPL
+Create a `index.js` and `app.js` and run it with node REPL
 
 ```
-node index.js
+node app.js
+
+# or
+
+node app.mjs
 ```
 
 ## Globals

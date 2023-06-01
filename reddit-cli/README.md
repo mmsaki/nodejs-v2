@@ -55,7 +55,7 @@ To install cli in your global npm packages
 
 ```zsh
 # go to root directory
-cd redit-cli/
+cd reddit-cli/
 
 # then
 

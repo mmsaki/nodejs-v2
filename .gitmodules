@@ -1,3 +1,0 @@
-[submodule "server2"]
-	path = server2
-	url = https://github.com/mmsaki/todo-server

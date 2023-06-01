@@ -100,3 +100,25 @@ X-Powered-By: Express
     }
 ]
 ```
+
+Getting specific id
+
+```zsh
+➜  nodejs-v2 git:(main) ✗ http :8000/todo/1685572052281
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+Date: Wed, 31 May 2023 22:40:41 GMT
+ETag: W/"36-mhReQxdvgVgovcEi4iNhkqqEa+w"
+Keep-Alive: timeout=5
+X-Powered-By: Express
+
+{
+    "data": {
+        "id": 1685572052281,
+        "text": "clean my closet"
+    }
+}
+
+```

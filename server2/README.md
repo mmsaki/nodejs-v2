@@ -122,3 +122,33 @@ X-Powered-By: Express
 }
 
 ```
+
+## Deploy server
+
+Add a start script to `package.json` and also add the node version you are using
+
+```json
+"scripts": {
+  "start": "node ./server.mjs"
+},
+
+"engines": {
+  "node": "v18.16.0"
+}
+```
+
+Remove hardcoded port `8000` change it to `process.env.PORT`
+
+```js
+process.env.PORT;
+```
+
+Install heroku and use cli
+
+```zsh
+# login
+heroku login
+
+# then create heroku app
+heroku create
+```

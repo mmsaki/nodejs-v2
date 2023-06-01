@@ -22,7 +22,7 @@ node app.mjs
 
 see more globals [here](https://nodejs.org/api/globals.html)
 
-# Modules
+# Modules (with commonjs)
 
 Option 1 (using .js files):
 
@@ -42,7 +42,7 @@ const { action } = require('./index.js');
 action();
 ```
 
-Option 2 (using common js with .mjs):
+## Option 2 (using modules with .mjs extension):
 
 ```js
 // index.mjs

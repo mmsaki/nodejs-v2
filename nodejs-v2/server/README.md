@@ -7,3 +7,9 @@ run
 ```zsh
 node index.mjs
 ```
+
+expected stdout
+
+```zsh
+Server is running on http://localhost:8000
+```

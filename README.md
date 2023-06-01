@@ -10,7 +10,7 @@
 1. [Testing](./testing/)
 1. [Testing](./testing2/)
 
-to follow along [see course](https://intro-to-nodejs-v2-site.vercel.app/lesson/11-testing)
+to follow along [see course](https://intro-to-nodejs-v2-site.vercel.app/lesson/00-welcome)
 
 ## Debugging
 
